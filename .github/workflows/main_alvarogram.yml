@@ -68,7 +68,7 @@ jobs:
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B15739904BDD41149E96C18E3DC54C44 }}
 
-      - name: 'Github Credential' 
+      - name: 'Github Credential'
         uses: azure/appservice-settings@v1
         with:
           app-name: 'alvarogram'
